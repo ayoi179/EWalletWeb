@@ -16,6 +16,7 @@ namespace DAL
     public class RegisterDataLayer
     {
         SqlConnection SqlConn = new SqlConnection("Data Source=LAPTOP-KOCVU3GB\\TEW_SQLEXPRESS;Initial Catalog=EwalletWeb;Integrated Security=True");
+        //insert SQL CONNECTION
 
         public void InsertData(string email, string password)
         {
