@@ -20,6 +20,7 @@ namespace EWalletWeb
         protected void Page_Load(object sender, EventArgs e)
         {
             con = new SqlConnection("Data Source=LAPTOP-KOCVU3GB\\TEW_SQLEXPRESS;Initial Catalog=EwalletWeb;Integrated Security=True");
+            //Insert SQL Connection Here
         }
 
        // protected void Button1_Click(object sender, EventArgs e)
